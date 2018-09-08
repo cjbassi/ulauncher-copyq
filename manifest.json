@@ -1,0 +1,19 @@
+{
+    "manifest_version": "1",
+    "api_version": "1",
+    "name": "CopyQ",
+    "description": "Ulauncher interface for the CopyQ clipboard manager",
+    "developer_name": "Caleb Bassi",
+    "icon": "images/icon.png",
+    "options": {
+        "query_debounce": 0.05
+    },
+    "preferences": [
+        {
+            "id": "copyq_kw",
+            "type": "keyword",
+            "name": "CopyQ",
+            "default_value": "cq"
+        }
+    ]
+}
